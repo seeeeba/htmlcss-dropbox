@@ -38,6 +38,12 @@ li{
     padding: 10% 15%;
 }
 
+.btn-big{
+    padding: 2% 0;
+    text-align: center;
+    cursor: pointer;
+}
+
 .blue-button{
     background-color: #0061ff;
     color: white;
@@ -115,6 +121,7 @@ header{
 
 main{
     margin-top: 65.22px;
+    margin-bottom: 500px;
 }
 
 /* JUMBOTRON */
@@ -141,22 +148,107 @@ main{
     margin-top: 40px;
 }
 
-.text-col{
+.jumbotron-text-col{
     width: 33%;
     padding-right: 1%    
 }
 
-.img-col{
+.jumbotron-img-col{
     width: 64%;;
 }
 
-.text-row{
+.jumbotron-text-row{
     margin-top: 20px;
     width: 60%;
 }
 
-.btn-big{
-    padding: 2% 0;
-    text-align: center;
-    cursor: pointer;
+/* BUSINESS */
+
+.business-section{
+    margin-top: 250px;
 }
+
+.business-container{
+    width: 65%;
+    margin: auto;
+    height: 500px;
+}
+
+.business-container h2{
+    font-size: 45px;
+}
+
+.business-checkbox{
+    margin-top: 60px;
+}
+
+.fake-checkbox:hover{
+    border: 5px solid blue;
+}
+
+.fake-checkbox{
+    height: 20px;
+    width: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.monthly-sold{
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.annual-sold{
+    display: inline-block;
+}
+
+
+/* PLANS*/
+
+.plans{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+.plans-left-col, .plans-center-col, .plans-right-col{
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.plans-row{
+    top: 0;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.plans-center-col{
+    margin: 0 5%;
+}
+
+.plans-layout-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title-section{
+    line-height:35px;
+}
+
+.month{
+    color: grey;
+}
+
+.info-section{
+    line-height: 25px;
+    margin-top: 20px;
+}
+
