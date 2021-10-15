@@ -121,7 +121,6 @@ header{
 
 main{
     margin-top: 65.22px;
-    margin-bottom: 500px;
 }
 
 /* JUMBOTRON */
@@ -166,12 +165,12 @@ main{
 
 .business-section{
     margin-top: 250px;
+    margin-bottom: 150px;
 }
 
 .business-container{
     width: 65%;
     margin: auto;
-    height: 500px;
 }
 
 .business-container h2{
@@ -204,7 +203,6 @@ main{
     display: inline-block;
 }
 
-
 /* PLANS*/
 
 .plans{
@@ -215,9 +213,10 @@ main{
 
 
 .plans-left-col, .plans-center-col, .plans-right-col{
-    width: 30%;
+    width: 28%;
     margin: auto;
     border: 1px solid black;
+    height: 800px;
 }
 
 .plans-row{
@@ -230,13 +229,15 @@ main{
 }
 
 .plans-center-col{
-    margin: 0 5%;
+    margin: 0 8%;
 }
 
 .plans-layout-container{
     width: 80%;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 14px;
 }
 
 .title-section{
@@ -252,3 +253,58 @@ main{
     margin-top: 20px;
 }
 
+.free-trial, .buy-section{
+    margin: 20px 0;
+}
+
+.buy-now{
+    color: #0765ff;
+    text-decoration: underline;
+}
+
+.decoration-line{
+    width: 30%;
+    height: 1px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.plans-list{
+    line-height: 35px;
+}
+
+.fa-check {
+    color: blue ;
+}
+
+.plans-bottom-row{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.row-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-col-left{
+    width: 70%;
+    margin: auto;
+}
+.bottom-col-right{
+    width: 30%;
+    margin: auto;
+}
+
+.bottom-col-left{
+    line-height: 35px;
+}
+
+.bottom-col-right div{
+    display: inline-block;
+    float: right;
+    padding: 9px 55px;
+}
