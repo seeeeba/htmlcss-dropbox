@@ -7,7 +7,7 @@
 
 /* rules */
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -21,8 +21,6 @@ img{
 
 .col{
     float: left;
-    padding: 0 20px;
-    vertical-align: middle;
 }
 
 a{
@@ -36,7 +34,7 @@ li{
 
 .btn{
     border: 1px solid none;
-    padding: 0 10px;
+    padding: 10% 15%;
 }
 
 .blue-button{
@@ -44,19 +42,37 @@ li{
     color: white;
 }
 
+.blue-button:hover{
+    background-color: #3c84ff;
+}
+
 /* images */
 
 .discord-logo{
     height: 25px;
     width: auto;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 1px solid red;
 }
 
 /* Header */
+header{
+    text-align: center;
+}
 
 .header-container{
     width: 100%;
+    margin: auto;
+    background-color: white;
     position: fixed;
-    padding: 1% 0;
+    padding: 2% 0;
+    border: 1px solid red;
+}
+
+.header-container .col{
+    float: left;
+    padding: 0 20px;
 }
 
 .image-col{
@@ -67,18 +83,34 @@ li{
 .left-col{
     width: 40%;
     text-align: left;
+    border: 1px solid red;
 }
 
 .right-col{
     width: 50%;
     text-align: right;
+    border: 1px solid red;
 }
 
 .left-header-menu li{
     padding-right: 50px;
+    border: 1px solid red;
 }
 
 .right-header-menu li{
     padding-left: 50px;
+    border: 1px solid red;
 }
 
+#initial-button{
+    margin-right: 40px;
+    border: 1px solid red;
+}
+
+
+
+.main-container{
+    width: 100%;
+    height: 5000px;
+    background-color: violet;
+}
