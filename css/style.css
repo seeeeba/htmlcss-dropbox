@@ -168,7 +168,7 @@ main{
     margin-bottom: 150px;
 }
 
-.business-container{
+.business-container, .partner-container, .utilities-container{
     width: 65%;
     margin: auto;
 }
@@ -207,7 +207,6 @@ main{
 
 .plans{
     width: 100%;
-    height: 200px;
     margin-top: 50px;
 }
 
@@ -216,7 +215,7 @@ main{
     width: 28%;
     margin: auto;
     border: 1px solid black;
-    height: 800px;
+    min-height: 1000px;
 }
 
 .plans-row{
@@ -307,4 +306,47 @@ main{
     display: inline-block;
     float: right;
     padding: 9px 55px;
+}
+
+/* Partner section */
+
+.col-left-section,.col-right-section{
+    width: 50%;
+}
+
+.col-right-section{
+    padding: 5%;
+}
+
+.col-right-section h3{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.partner-button{
+    border: 1px solid black;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.partner-button:hover{
+    background-color: #d6d2d2;
+}
+
+.utilities-section{
+    margin-top: 150px;
+}
+
+.utilities-container h2{
+    font-size: 45px;
+}
+
+.col-left-utilities, .col-center-utilities , .col-right-utilities{
+    width: 30%;
+}
+
+.col-center-utilities{
+    margin: 0 5%;
 }
